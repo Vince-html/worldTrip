@@ -15,13 +15,6 @@ interface Country {
 
 export function Card({ country }: Country) {
   const { handleCountryModal } = useModalContext();
-
-
-  function handleOpenModal() {
-
-  }
-
-
   return (
     <Flex flexDirection='column' scale="0.8" transform='auto' _hover={{ scale: "1.0" }} cursor="pointer" onClick={() => { handleCountryModal(country) }}>
 

@@ -12,7 +12,7 @@ export function Header() {
   return (
     <Flex w="100%" maxH="100px" m='0 auto' p='3' justify='center' position='relative'>
       {router.asPath !== '/' &&
-        <ChakraLink href='/' position='absolute' p='2' left='10%' outline='none' >
+        <ChakraLink href='/' position='absolute' p='2' left='10%' outline='none' _focus={{ outline: 'none' }} >
           <Icon as={IoIosArrowBack} fontSize='30px' />
         </ChakraLink>
       }
