@@ -17,11 +17,11 @@ export function Section() {
 
       <Flex position='absolute' align="start" justify="space-around" mt={["5", "5", "10", '20']} w='100%' p={["0 20px", '0 100px']} >
         <Flex maxWidth='460px' flexDirection='column'>
-          <Text as='h1' fontSize={['2xl', '2xl', '2xl', '2xl', '4xl']} fontWeight='bold' color='light.white' >
+          <Text as='h1' fontSize={['2xl', '2xl', '2xl', '2xl', '4xl']} fontWeight='bold' color='light.white' textAlign={['center', 'center', 'left']} >
             5 Continentes,
             infinitas possibilidades.
           </Text>
-          <Text as='p' color='light.info' >
+          <Text as='p' color='light.info' mt='2' textAlign={['center', 'center', 'left']} >
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.
           </Text>
         </Flex>

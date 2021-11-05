@@ -16,7 +16,7 @@ export function IconComponent({ children, icon }: IconComponentProps) {
           <Icon as={icon} fontSize="100" color='highlight.900' display={['none', "none", 'block']} />
         </span>
       </Tooltip>
-      <Text fontSize="20" fontWeight='semibold' color='dark.text'>{children}</Text>
+      <Text fontSize="20" fontWeight='semibold' color='dark.text' textAlign='center'>{children}</Text>
     </Flex>
   )
 }
