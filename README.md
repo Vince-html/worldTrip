@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite Chapter IV
 
-## Getting Started
+  
 
-First, run the development server:
+![logo](./public/logo.svg)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Projeto: World Trip
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Início Capitulo 4 do ignite foi voltado para uso, da lib do Chakra UI uma lib de componentes. 
 
-## Learn More
+O Desafio consistia em desenvolver a aplicação do zero utilizando NextJS e a lib do Chakra, foi disponibilizado o layout no figma. 
 
-To learn more about Next.js, take a look at the following resources:
+Como não queria usar uma simples fakeApi, e já tenho um conhecimento com GraphQl e GraphCms, usei isso para deixar os dados da aplicação lá, em json mesmo. Só pra não poluir a aplicação.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As imagens são imagens do google, então em algum momento alguma pode ficar fora do ar. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Algumas coisas a mais que fiz além do desafio, foi colocar um modal para visualizar o destino com uma breve descrição do mesmo. Uma pequena animação no início. 
+Aproveitei para usar tambem o getStaticProps do NextJS. 
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Caso queira ver a aplicação rodando, so entrar aqui
+[Link da aplicação](https://world-trip-vince.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Tecnologias
+
+ - Next 
+ - Chakra
+ - Typescript 
+ - GraphQl 
+
+
+### Para a instalação 
+Copie o repositório com o git clone #url;
+Apos isso execute **yarn** para instalação das dependências;
+E então de um **yarn start** para a aplicação rodar no seu Navegador;
+Ops: A aplicação não vai funcionar 100% sem os dados em Json. 
+
+### Prints da Aplicação
+Todo o layout foi feito pela @RocketSeat 
+
+<br>
+<br>
+<br>
+
+![logo](./public/worldtrip.jpg)
