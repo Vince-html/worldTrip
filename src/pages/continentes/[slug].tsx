@@ -46,15 +46,15 @@ export default function Continent({ continente }: ContinentProps) {
           <SimpleGrid columns={[3]} >
             <Flex flexDirection='column' justify='center' align='center'>
               <Text as='h3' fontSize='4xl' color="highlight.900" fontWeight='bold' marginBlockEnd="0" p='0'>{setContinent.countries}</Text>
-              <Text fontWeight='bold' color="dark.text">países</Text>
+              <Text fontWeight='bold' fontSize={['sm', 'lg']} color="dark.text">países</Text>
             </Flex>
             <Flex flexDirection='column' justify='center' align='center' >
               <Text fontSize='4xl' color="highlight.900" fontWeight='bold'>{setContinent.language}</Text>
-              <Text fontWeight='bold' color="dark.text">línguas</Text>
+              <Text fontWeight='bold' fontSize={['sm', 'lg']} color="dark.text">línguas</Text>
             </Flex>
             <Flex flexDirection='column' justify='center' align='center'>
               <Text fontSize='4xl' color="highlight.900" fontWeight='bold'>5 </Text>
-              <Text fontWeight='bold' color="dark.text">cidades +100</Text>
+              <Text fontWeight='bold' fontSize={['sm', 'lg']} color="dark.text">cidades +100</Text>
             </Flex>
           </SimpleGrid>
         </SimpleGrid>
