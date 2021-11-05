@@ -18,19 +18,29 @@ const continentes = [
 ]
 export function Carrousel() {
   return (
-    <Flex w='100%' justify="center" align="center" p={['0', '10']} >
-      <Swiper
-        slidesPerView={1} spaceBetween={30} loop={true} pagination={{
-          "clickable": true
-        }} navigation={true} className="mySwiper"
-      >
-        {continentes.map((item) => (
-          <SwiperSlide key={item.continent}>
-            <MidSection continent={item} />
-          </SwiperSlide>
-        ))}
+    <>
+      <Flex w='100%' justify="center" align="center" m='0 auto' mt='5'>
+        <Text
 
-      </Swiper>
-    </Flex>
+          fontSize={['sm', '1xl', '3xl']}
+          fontWeight="bold"
+          _before={{ content: '""', width: '100px', height: '2px', background: '#47585B', display: 'block', margin: '0 auto', mb: '2' }}
+        >Vamos nessa? Então escolha seu continente</Text>
+      </Flex>
+      <Flex w='100%' justify="center" align="center" p={['0', '10']} mt='10' >
+        <Swiper
+          slidesPerView={1} spaceBetween={30} loop={true} pagination={{
+            "clickable": true
+          }} navigation={true} className="mySwiper"
+        >
+          {continentes.map((item) => (
+            <SwiperSlide key={item.continent}>
+              <MidSection continent={item} />
+            </SwiperSlide>
+          ))}
+
+        </Swiper>
+      </Flex>
+    </>
   );
 };
